@@ -1,0 +1,8 @@
+{
+    "git.allowForcePush": true,
+    "git.allowNoVerifyCommit": true,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "githubPullRequests.terminalLinksHandler": "vscode",
+    "githubPullRequests.useReviewMode": {},
+    "editor.fontFamily": "'Courier', 'monospace', monospace"
+}

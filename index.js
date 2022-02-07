@@ -3,9 +3,6 @@ const cors = require('cors');
 const fileupload = require('express-fileupload');
 const morgan = require('morgan');
 const SocketIO = require('socket.io');
-const webpack = require('webpack');
-const WebpackDevMiddleware = require('webpack-dev-middleware');
-const webpack_config = require('./webpack.config');
 const path = require('path');
 const tester = require('./routes/index');
 
@@ -18,10 +15,6 @@ app.set('port', process.env.PORT || 3000);
 const corsOptions = {
     origin: '*'
 };
-
-// Webpack:
-
-app.use(WebpackDevMiddleware(webpack(webpack_config)));
 
 // Middlewares:
 
